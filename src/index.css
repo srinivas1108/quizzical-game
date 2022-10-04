@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f5f7fb;
+  background-image: url("./images/blob1.png"), url("./images/blob2.png");
+  background-repeat: no-repeat no-repeat;
+  background-position: bottom left, top right;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.title {
+  text-align: center;
+}
+.App {
+  margin-top: 30px;
+  margin-left: 220px;
+}
+hr {
+  width: 750px;
+  margin-left: 0px;
+  margin-top: 10px;
+  border: 0.794239px solid #dbdef0;
+}
+
+.options {
+  margin-right: 50px;
+  width: 150px;
+  height: 35px;
+  background-color: white;
+  border: 0.794239px solid #4d5b9e;
+
+  border-radius: 40px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 12px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #293264;
+}
+
+.correct {
+  margin-right: 50px;
+  width: 150px;
+  height: 35px;
+  background-color: #94d7a2;
+  border-radius: 10px;
+}
+.wrong {
+  margin-right: 50px;
+  width: 150px;
+  height: 35px;
+  background-color: #f8bcbc;
+  border-radius: 10px;
+}
+.selected {
+  margin-right: 50px;
+  width: 150px;
+  height: 35px;
+  font-size: 11px;
+  background-color: #d6dbf5;
+
+  border-radius: 10px;
+}
+#submit {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17.8px;
+  line-height: 15px;
+  color: #293264;
+}
+.starter {
+  margin-top: 200px;
+  width: 100vw;
+  height: 64vh;
+}
+.sub-title {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21.25px;
+  line-height: 37px;
+  text-align: center;
+
+  color: #293264;
+}
+.title {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.25px;
+  line-height: 37px;
+  text-align: center;
+
+  color: #293264;
+}
+.start {
+  width: 193px;
+  height: 52px;
+  margin-left: 43%;
+  background: #4d5b9e;
+  border-radius: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #f5f7fb;
+}
+.btn {
+  width: 120px;
+  height: 35px;
+
+  margin-left: 350px;
+  background-color: #4d5b9e;
+  border-radius: 10px;
+  color: #f5f7fb;
+}
+.question {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #293264;
+}
+@media only screen and (max-device-width: 600px) {
+  .App {
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 0;
+  }
+  hr {
+    width: 90vw;
+  }
+  .question {
+    font-size: 18px;
+  }
+  .options,
+  .selected,
+  .correct,
+  .wrong {
+    font-size: small;
+    margin-left: 25%;
+    margin-bottom: 2%;
+  }
+  .btn {
+    margin-left: 28%;
+    margin-bottom: 30px;
+  }
+  .start {
+    margin-left: 25%;
+  }
+}
